@@ -33,4 +33,14 @@ if minetest.get_modpath("mcl_core") then
     }
   })
 
+  -- Ladders from Planks
+  minetest.register_craft({
+    output = "mcl_core:ladder 6",
+    recipe = {
+      { "group:wood", "", "group:wood" },
+      { "group:wood", "group:wood", "group:wood" },
+      { "group:wood", "", "group:wood" }
+    }
+  })
+
 end
