@@ -8,3 +8,19 @@
 #
 # For example using 8 Logs instead of Planks = 4 Chests Output
 mclsp_crafting_Shortcuts (Shortcut Recipes) bool true
+
+# Allows crafting arrows with Iron.
+#
+# You can change the cost or disable it altogether with this setting:
+#
+# Ingots (Default)
+# * Allow Ingots In Place of Flint = 4 Arrows
+# * Balanced Cost
+#
+# Nuggets
+# * Allow Nuggets In place of Flint = 4 Arrows
+# * Cheap Cost
+#
+# Disabled
+# * Cannot Craft Arrows with Iron
+mclsp_crafting_IronArrows (Arrows From Iron) enum Ingots Ingots,Nuggets,Disabled
