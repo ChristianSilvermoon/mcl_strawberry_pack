@@ -21,6 +21,15 @@ if minetest.get_modpath("mcl_core") then
       { "group:tree", "group:tree", "group:tree" }
     }
   })
+
+  -- Ladders from Logs
+  minetest.register_craft({
+    output = "mcl_core:ladder 24",
+    recipe = {
+      { "group:tree", "", "group:tree" },
+      { "group:tree", "group:tree", "group:tree" },
+      { "group:tree", "", "group:tree" }
+    }
   })
 
 end
