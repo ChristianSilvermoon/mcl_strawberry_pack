@@ -63,5 +63,14 @@ if minetest.get_modpath("mcl_core") then
     }
   })
 
+  -- Furnace Minecart From Iron + Furnace
+  minetest.register_craft({
+    output = "mcl_minecarts:furnace_minecart",
+    recipe = {
+      { "", "", "" },
+      { "mcl_core:iron_ingot", "mcl_furnaces:furnace", "mcl_core:iron_ingot" },
+      { "mcl_core:iron_ingot", "mcl_core:iron_ingot", "mcl_core:iron_ingot" }
+    }
+  })
 
 end
