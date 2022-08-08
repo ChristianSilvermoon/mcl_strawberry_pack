@@ -12,9 +12,8 @@ if minetest.get_modpath("mcl_core") then
       }
   })
 
-
   -- Chests
-  minetest.register_craft({ 
+  minetest.register_craft({
     output = "mcl_chests:chest 4",
       recipe = {
         { "group:tree", "group:tree", "group:tree" },
@@ -22,9 +21,6 @@ if minetest.get_modpath("mcl_core") then
         { "group:tree", "group:tree", "group:tree" }
       }
   })
-
-
-
 
 end
 --------------------------------------------------------

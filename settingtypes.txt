@@ -1,0 +1,7 @@
+# Settings for MineClone Strawberry Pack
+
+[New Crafting Recipes]
+# Enables Crafting Many Items at once from Logs instead of Planks
+#
+# For example 8 Logs instead of Planks = 4 Chests Output
+mclsp_crafting_LogShortcuts (Log Shortcut Recipes) bool true
