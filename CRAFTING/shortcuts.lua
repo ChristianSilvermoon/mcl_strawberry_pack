@@ -1,5 +1,6 @@
+-- Shortcut Recipes
+-- Allows Skipping Certain Crafting Steps with additional recipes
 
--- Log Shortcuts (Craft Larger Amounts of Items From Logs Instead of Planks)
 if minetest.get_modpath("mcl_core") then
 
   -- Sticks
@@ -33,4 +34,3 @@ if minetest.get_modpath("mcl_core") then
   })
 
 end
---------------------------------------------------------
