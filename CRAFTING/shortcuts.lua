@@ -43,4 +43,25 @@ if minetest.get_modpath("mcl_core") then
     }
   })
 
+  -- Chest Minecart from Iron and Chest
+  minetest.register_craft({
+    output = "mcl_minecarts:chest_minecart",
+    recipe = {
+      { "", "", "" },
+      { "mcl_core:iron_ingot", "mcl_chests:chest", "mcl_core:iron_ingot" },
+      { "mcl_core:iron_ingot", "mcl_core:iron_ingot", "mcl_core:iron_ingot" }
+    }
+  })
+
+  -- Chest Minecart from Iron and Logs
+  minetest.register_craft({
+    output = "mcl_minecarts:chest_minecart",
+    recipe = {
+      { "", "group:tree", "" },
+      { "mcl_core:iron_ingot", "group:tree", "mcl_core:iron_ingot" },
+      { "mcl_core:iron_ingot", "mcl_core:iron_ingot", "mcl_core:iron_ingot" }
+    }
+  })
+
+
 end
