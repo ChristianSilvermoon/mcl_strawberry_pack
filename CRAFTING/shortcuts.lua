@@ -73,4 +73,14 @@ if minetest.get_modpath("mcl_core") then
     }
   })
 
+ -- Hopper Minecart From Iron + Hopper
+ minetest.register_craft({
+    output = "mcl_minecarts:hopper_minecart",
+    recipe = {
+      { "", "", "" },
+      { "mcl_core:iron_ingot", "mcl_hoppers:hopper", "mcl_core:iron_ingot" },
+      { "mcl_core:iron_ingot", "mcl_core:iron_ingot", "mcl_core:iron_ingot" }
+    }
+  })
+
 end
