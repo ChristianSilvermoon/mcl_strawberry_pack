@@ -83,4 +83,14 @@ if minetest.get_modpath("mcl_core") then
     }
   })
 
+ -- TNT Minecart From Iron + TNT
+ minetest.register_craft({
+    output = "mcl_minecarts:tnt_minecart",
+    recipe = {
+      { "", "", "" },
+      { "mcl_core:iron_ingot", "mcl_tnt:tnt", "mcl_core:iron_ingot" },
+      { "mcl_core:iron_ingot", "mcl_core:iron_ingot", "mcl_core:iron_ingot" }
+    }
+  })
+
 end
